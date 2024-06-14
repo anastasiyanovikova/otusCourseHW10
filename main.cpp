@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
   if(argc <= 2)
   {
-    std::cout << "port bulkNumber" <<std::endl;
+    std::cout << "Необходимо задать порт и размер блока" <<std::endl;
     return 0;
   } 
   unsigned short port = atoi (argv [1]);
